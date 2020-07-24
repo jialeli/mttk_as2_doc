@@ -27,7 +27,6 @@ MTTK_AS2配套有对应的MTTK_AS2_CLOUD 云端系统，您可以利用MTTK_AS2 
 MTTK_AS2 是java 进行开发，存储用的是mongDB 这意味着你可能需要对这两者有大致的了解，MTTK_AS2  
 
 **系统截图**  
-
 <p align="center">
   <img width="900" src="https://wpimg.wallstcn.com/a5894c1b-f6af-456e-82df-1151da0839bf.png">
 </p>
@@ -118,8 +117,7 @@ MTTK_AS2 是java 进行开发，存储用的是mongDB 这意味着你可能需�
 # 克隆项目
 git clone https://github.com/mttk-as2/MTTK_AS2.git
 
-# 解压FULL安装包 \MTTK_AS2\full\FULL.rar
-
+# 解压FULL安装包 [\MTTK_AS2\full\FULL.rar]
 
 # 解压后，进入解压后的bin目录 [\mttk_as2\work\bin]
 
@@ -142,10 +140,10 @@ startup.bat
 # 克隆项目
 git clone https://github.com/mttk-as2/MTTK_AS2.git
 
-# 解压项目目录
-\MTTK_AS2\less\LESS.rar
+# 解压项目目录 [\MTTK_AS2\less\LESS.rar]
+
 ```
-更多信息请参考 [安装文档](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/Mttk%20AS2%20Installation_CN.pdf)
+详情请参考 [安装文档](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/Mttk%20AS2%20Installation_CN.pdf)
 
 ## 其它
 
