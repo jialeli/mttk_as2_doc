@@ -37,16 +37,11 @@ MTTK_AS2 是java 进行开发，存储用的是mongDB 这意味着你可能需�
 考虑到安装系统需要一定的技术能力去配置 jdk 和mongoDB 这里我们把安装程序分为两个不同类型的安装包  
 
 - [FULL](https://github.com/mttk-as2/MTTK_AS2/tree/master/full)
-包含jdk和mongoDB运行环境的安装包 [FULL](https://github.com/mttk-as2/MTTK_AS2/tree/master/full)
+包含jdk和mongoDB运行环境的安装包 
 
 - [LESS](https://github.com/mttk-as2/MTTK_AS2/tree/master/less)
-不包含jdk和mongoDB运行环境的基础安装包 [LESS](https://github.com/mttk-as2/MTTK_AS2/tree/master/less) 此安装包需要自己安装jdk和mongoDB 运行环境
+不包含jdk和mongoDB运行环境的基础安装包，此安装包需要自己安装jdk和mongoDB 运行环境
 
-## Sponsors
-
-Become a sponsor and get your logo on our README on GitHub with a link to your site. [[Become a sponsor]](https://www.patreon.com/panjiachen)
-
-<a href="https://flatlogic.com/admin-dashboards?from=vue-element-admin"><img width="150px" src="https://wpimg.wallstcn.com/9c0b719b-5551-4c1e-b776-63994632d94a.png" /></a><p>Admin Dashboard Templates made with Vue, React and Angular.</p>
 
 ## 功能
 
@@ -117,7 +112,7 @@ Become a sponsor and get your logo on our README on GitHub with a link to your s
 - Markdown2html
 ```
 
-## 开发
+## FULL包安装
 
 ```bash
 # 克隆项目
@@ -138,8 +133,9 @@ npm run dev
 
 浏览器访问 http://localhost:9527
 
-## 发布
+## LESS包安装
 
+更多信息请参考 [安装文档](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/Mttk%20AS2%20Installation_CN.pdf)
 ```bash
 # 构建测试环境
 npm run build:stage
