@@ -24,6 +24,7 @@ MTTK_AS2配套有对应的MTTK_AS2_CLOUD 云端系统，您可以利用MTTK_AS2 
 
 ## 前序准备
 MTTK_AS2 是java 进行开发，存储用的是mongDB 这意味着你可能需要对这两者有大致的了解，MTTK_AS2 
+**如有问题请先看上述使用文档和文章，若不能满足，欢迎 issue 和 pr**
 <p align="center">
   <img width="900" src="https://wpimg.wallstcn.com/a5894c1b-f6af-456e-82df-1151da0839bf.png">
 </p>
