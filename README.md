@@ -29,7 +29,15 @@ MTTK_AS2 是java 进行开发，存储用的是mongDB 这意味着你可能需�
 **系统截图**  
 
 <p align="center">
-  <img width="900" src="https://wpimg.wallstcn.com/a5894c1b-f6af-456e-82df-1151da0839bf.png">
+  <img width="900" src="https://raw.githubusercontent.com/jialeli/mttk_as2_doc/master/main.png">
+</p>
+
+<p align="center">
+  <img width="900" src="https://raw.githubusercontent.com/jialeli/mttk_as2_doc/master/runtime.png">
+</p>
+
+<p align="center">
+  <img width="900" src="https://raw.githubusercontent.com/jialeli/mttk_as2_doc/master/runtimeDetail.png">
 </p>
 
 **安装包**
