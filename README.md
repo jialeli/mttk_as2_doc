@@ -18,7 +18,7 @@
 
 - [讨论组](https://github.com/mttk-as2/MTTK_AS2/issues)
 
-- [联系邮箱]：[as2@mttk.com.cn]
+- [联系邮箱：as2@mttk.com.cn]
 
 **`v4.1.0+`版本之后默认 master 分支将不支持国际化，有需要的请使用[i18n](https://github.com/PanJiaChen/vue-element-admin/tree/i18n)分支，它会和 master 保持同步更新**
 
