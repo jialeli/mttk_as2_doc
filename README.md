@@ -10,21 +10,15 @@
 
 ## 简介
 
-[MTTK_AS2](https://github.com/mttk-as2/MTTK_AS2) 是一个遵循AS2协议 来实现报文收发的 java 软件系统。 系统中可以灵活配置证书、合作伙伴AS2信息、本地AS2信息等。MTTK_AS2拥有完善的系统监控和错误追踪，MTTK_AS2 映射模块支持任意数据格式转换成任意数据格式
+[MTTK_AS2](https://github.com/mttk-as2/MTTK_AS2) 是一个遵循AS2协议来实现报文收发的 java 软件系统。 系统中可以灵活配置证书、合作伙伴AS2信息、本地AS2信息等。MTTK_AS2拥有完善的系统监控和错误追踪，MTTK_AS2 映射模块支持任意数据格式转换成任意数据格式(例如：xml转json/xml转edi/json转edi/edi转json 等)
 
-- [在线预览](https://panjiachen.github.io/vue-element-admin)
+- [安装文档](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/Mttk%20AS2%20Installation_CN.pdf)
 
-- [使用文档](https://panjiachen.github.io/vue-element-admin-site/zh/)
+- [使用文档](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/MTTK%20AS2%20User%20Manual_CN.pdf)
 
-- [Gitter 讨论组](https://gitter.im/vue-element-admin/discuss)
+- [讨论组](https://github.com/mttk-as2/MTTK_AS2/issues)
 
-- [Donate](https://panjiachen.gitee.io/vue-element-admin-site/zh/donate)
-
-- [Wiki](https://github.com/PanJiaChen/vue-element-admin/wiki)
-
-- [Gitee](https://panjiachen.gitee.io/vue-element-admin/) 在线预览（国内用户可访问该地址）
-
-- [国内访问文档](https://panjiachen.gitee.io/vue-element-admin-site/zh/) 文档（方便没翻墙的用户查看）
+- [联系邮箱](as2@mttk.com.cn)
 
 - 基础模板建议使用: [vue-admin-template](https://github.com/PanJiaChen/vue-admin-template)
 - 桌面端: [electron-vue-admin](https://github.com/PanJiaChen/electron-vue-admin)
