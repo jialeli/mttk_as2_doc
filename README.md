@@ -24,16 +24,18 @@ MTTK_AS2配套有对应的MTTK_AS2_CLOUD 云端系统，您可以利用MTTK_AS2 
 - 联系邮箱：[as2@mttk.com.cn]
 
 ## 前序准备
-MTTK_AS2 是java 进行开发，存储用的是mongDB 这意味着你可能需要对这两者有大致的了解，MTTK_AS2 
-**系统截图**  
+MTTK_AS2 是java 进行开发，存储用的是mongDB 这意味着你可能需要对这两者有大致的了解，MTTK_AS2  
 
+**系统截图**  
 <p align="center">
   <img width="900" src="https://wpimg.wallstcn.com/a5894c1b-f6af-456e-82df-1151da0839bf.png">
 </p>
 **安装包**
 考虑到安装系统需要一定的技术能力去配置 jdk 和mongoDB 这里我们把安装程序分为两个不同类型的安装包  
--[FULL](https://github.com/mttk-as2/MTTK_AS2/tree/master/full)
--[LESS](https://github.com/mttk-as2/MTTK_AS2/tree/master/less)
+- [FULL](https://github.com/mttk-as2/MTTK_AS2/tree/master/full)
+包含jdk和mongoDB运行环境的安装包 [FULL](https://github.com/mttk-as2/MTTK_AS2/tree/master/full)
+- [LESS](https://github.com/mttk-as2/MTTK_AS2/tree/master/less)
+不包含jdk和mongoDB运行环境的基础安装包 [LESS](https://github.com/mttk-as2/MTTK_AS2/tree/master/less) 此安装包需要自己安装jdk和mongoDB 运行环境
 ## Sponsors
 
 Become a sponsor and get your logo on our README on GitHub with a link to your site. [[Become a sponsor]](https://www.patreon.com/panjiachen)
