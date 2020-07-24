@@ -37,10 +37,10 @@ MTTK_AS2 是java 进行开发，存储用的是mongDB 这意味着你可能需�
 考虑到安装系统需要一定的技术能力去配置 jdk 和mongoDB 这里我们把安装程序分为两个不同类型的安装包  
 
 - [FULL](https://github.com/mttk-as2/MTTK_AS2/tree/master/full)
-包含jdk和mongoDB运行环境的安装包 
+包含jdk和mongoDB运行环境的安装包  (只适用于64位windows)
 
 - [LESS](https://github.com/mttk-as2/MTTK_AS2/tree/master/less)
-不包含jdk和mongoDB运行环境的基础安装包，此安装包需要自己安装jdk和mongoDB 运行环境
+不包含jdk和mongoDB运行环境的基础安装包 (此安装包需要自己安装jdk和mongoDB 运行环境)
 
 
 ## 功能
@@ -116,51 +116,41 @@ MTTK_AS2 是java 进行开发，存储用的是mongDB 这意味着你可能需�
 
 ```bash
 # 克隆项目
-git clone https://github.com/PanJiaChen/vue-element-admin.git
+git clone https://github.com/mttk-as2/MTTK_AS2.git
 
-# 进入项目目录
-cd vue-element-admin
+# 解压FULL安装包 \MTTK_AS2\full\FULL.rar
 
-# 安装依赖
-npm install
 
-# 建议不要直接使用 cnpm 安装依赖，会有各种诡异的 bug。可以通过如下操作解决 npm 下载速度慢的问题
-npm install --registry=https://registry.npm.taobao.org
+# 解压后，进入解压后的bin目录 [\mttk_as2\work\bin]
 
-# 启动服务
-npm run dev
+# 运行mongoDB环境
+mongoStartup.bat
+
+# windows 服务方式运行mongoDB环境
+mongoInstallService.bat
+
+# 启动MTTK_AS2服务
+startup.bat
 ```
 
-浏览器访问 http://localhost:9527
+浏览器访问 http://localhost:5555
 
 ## LESS包安装
 
-更多信息请参考 [安装文档](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/Mttk%20AS2%20Installation_CN.pdf)
-```bash
-# 构建测试环境
-npm run build:stage
 
-# 构建生产环境
-npm run build:prod
+```bash
+# 克隆项目
+git clone https://github.com/mttk-as2/MTTK_AS2.git
+
+# 解压项目目录
+\MTTK_AS2\less\LESS.rar
 ```
+更多信息请参考 [安装文档](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/Mttk%20AS2%20Installation_CN.pdf)
 
 ## 其它
 
-```bash
-# 预览发布环境效果
-npm run preview
 
-# 预览发布环境效果 + 静态资源分析
-npm run preview -- --report
-
-# 代码格式检查
-npm run lint
-
-# 代码格式检查并自动修复
-npm run lint -- --fix
-```
-
-更多信息请参考 [使用文档](https://panjiachen.github.io/vue-element-admin-site/zh/)
+更多信息请参考 [使用文档](https://github.com/mttk-as2/MTTK_AS2/blob/master/doc/MTTK%20AS2%20User%20Manual_CN.pdf)
 
 ## Browsers support
 
