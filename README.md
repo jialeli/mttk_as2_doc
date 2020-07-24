@@ -33,7 +33,7 @@ MTTK_AS2 是java 进行开发，存储用的是mongDB 这意味着你可能需�
 </p>
 
 <p align="center">
-  <img width="900" src="https://raw.githubusercontent.com/jialeli/mttk_as2_doc/master/runtime.png">
+  <img width="900" src="https://github.com/jialeli/mttk_as2_doc/blob/master/imge/runtime.png">
 </p>
 
 <p align="center">
